@@ -4,11 +4,8 @@ on:
   push:
     branches: 
       - master
-<<<<<<< HEAD
       - release-githubactions-hcm-demo-v1.7 # Change to your githubactions
-=======
-      - release-githubactions-hcm-demo-v1.7
->>>>>>> 7c1bea790a9fbcbff5417705835f123873753ab1
+
       
   workflow_dispatch:
     inputs:
