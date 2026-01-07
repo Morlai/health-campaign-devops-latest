@@ -39,8 +39,9 @@ jobs:
           yaml-file: infra-as-code/terraform/sample-aws/input.yaml
           mask-values: false
 
-      - name: Display environment variables
-        run: echo "Cluster Name: $CLUSTER_NAME"
+       - name: Display environment variables
+         run: echo "Cluster Name: $CLUSTER_NAME"
+
 
       - name: Update files based on input.yaml
         run: go run init.go
